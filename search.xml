@@ -1,38 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>hexo使用</title>
-    <url>/2022/11/12/hexo%E4%BD%BF%E7%94%A8%E5%8F%8Anext%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h3 id="hexo-使用"><a href="#hexo-使用" class="headerlink" title="hexo 使用"></a>hexo 使用</h3><ul>
-<li><p>发布文章</p>
-<ul>
-<li>创建新的文章：<code>hexo new &quot;title&quot;</code></li>
-<li>发布新的文章：<code>hexo g</code>、<code>hexo d</code></li>
-<li>在创建的<code>md</code>文档的上面，可配置文档的<code>tags</code>、<code>categories</code> 以及使用使用数学公式渲染<code>mathjax</code>，使用<code>top</code>可以使文章置顶，<code>top</code>的值表示优先级，值越大，优先级越高</li>
-</ul>
-</li>
-<li><p>发布修改主题配置</p>
-<p>修改玩主题配置之后，依次使用<code>hexo clean</code>、<code>hexo g</code>、<code>hexo d</code></p>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/11/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>第一章 数据结构基本概念</title>
+      <link href="/2022/11/12/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
+      <url>/2022/11/12/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-1-概念"><a href="#1-1-概念" class="headerlink" title="1.1 概念"></a>1.1 概念</h3><ul><li><p>数据：</p><p>描述客观事物的符号，是计算机中可以操作的对象，能被计算机识别，并输入给计算机处理的符号集合</p></li><li><p>数据元素</p><p>是组成数据的、有一定意义的基本单位，在计算机通常作为整体处理，也被称为记录</p></li><li><p>数据项</p><p>一个数据元素可以由若干个数据项组成。数据项是数据不可分隔的最小单位</p></li></ul><h3 id="1-2-逻辑结构"><a href="#1-2-逻辑结构" class="headerlink" title="1.2 逻辑结构"></a>1.2 逻辑结构</h3><p>逻辑结构是指数据元素之间的逻辑关系，即从逻辑关系上描述数据。它与数据的存储无关，是独立于计算机的</p><p><img src="https://typora-1303258815.cos.ap-chengdu.myqcloud.com/typora-imgs/image-20221023194514134.png" alt="image-20221023194514134"></p><ul><li><p>集合</p><p>结构中的数据元素之间除了“同属于一个集合”的关系外，别无其他关系。 类似于数学上的集合</p></li><li><p>线性结构</p><p>结构中的数据元素之间只存在一对一的关系。比如排队</p></li><li><p>树形结构 </p><p>结构中的数据元素之间存在一对多的关系。比如家族族谱</p></li><li><p>图状结构或网状结构 </p><p>结构中的数据元素之间存在多对多的关系。 比如地图</p></li></ul><h3 id="1-3-物理结构"><a href="#1-3-物理结构" class="headerlink" title="1.3 物理结构"></a>1.3 物理结构</h3><p>存储结构是指数据结构在计算机中的表示（又称映像），也称物理结构。</p><ul><li>顺序存储：存储的物理位置相邻。（p.s. 物理位置即信息在计算机中的位置。）</li><li>链接存储：存储的物理位置未必相邻，通过记录相邻元素的物理位置来找到相邻元素。</li><li>索引存储：类似于目录，以后可以联系操作系统的文件系统章节来理解。</li><li>散列存储：通过关键字直接计算出元素的物理地址（以后详解）。</li></ul><h3 id="1-4-算法的五个特征"><a href="#1-4-算法的五个特征" class="headerlink" title="1.4 算法的五个特征"></a>1.4 算法的五个特征</h3><p><img src="https://typora-1303258815.cos.ap-chengdu.myqcloud.com/typora-imgs/image-20221023194828790.png" alt="image-20221023194828790"></p><ul><li>有穷性：有限步之后结束</li><li>确定性：不存在二义性，即没有歧义</li><li>可行性：比如受限于计算机的计算能力，有些算法虽然理论上可行，但实际上无法完成。</li><li>输入：能被计算机处理的各种类型数据，如数字，音频，图像等等。</li><li>输出：一至多个程序输出结果。</li></ul><h3 id="1-5-算法的复杂度"><a href="#1-5-算法的复杂度" class="headerlink" title="1.5 算法的复杂度"></a>1.5 算法的复杂度</h3><h4 id="1-5-1-时间复杂度："><a href="#1-5-1-时间复杂度：" class="headerlink" title="1.5 .1 时间复杂度："></a>1.5 .1 时间复杂度：</h4><ul><li>它用来衡量算法随着问题规模增大，算法执行时间增长的快慢；</li><li>是问题规模的函数：时间复杂度主要分析$T(n)$的数量级，$T(n)$是时间规模函数；</li><li>$T(n)&#x3D;O(f(n))$ ，$f(n)$是算法中基本运算的频度 一般我们考虑最坏情况下的时间复杂度</li></ul><h4 id="1-5-2-空间复杂度："><a href="#1-5-2-空间复杂度：" class="headerlink" title="1.5.2 空间复杂度："></a>1.5.2 空间复杂度：</h4><ul><li>它用来衡量算法随着问题规模增大，算法所需空间的快慢；</li><li>是问题规模的函数：$S(n)&#x3D;O(g(n))$ ，算法所需空间的增长率和$g(n)$的增长率相同。</li></ul><h4 id="1-5-3-复杂度的计算"><a href="#1-5-3-复杂度的计算" class="headerlink" title="1.5.3 复杂度的计算"></a>1.5.3 复杂度的计算</h4><p><strong>常用的时间复杂度大小关系</strong><br>$$<br>O(1)&lt;O(log_2n)&lt;O(n)&lt;O(nlog_2n)&lt;O(n^2)&lt;O(2^n)<br>$$<br><strong>算法分析的分类</strong></p><ul><li>平均情况：任意输入规模的期望运行次数</li><li>最坏情况：任意输入规模的最大运行次数</li><li>最好情况：任意输入规模的最小运行次数，通常最好情况不会出现</li></ul><p><strong>时间复杂度—O渐进表示法</strong></p><ul><li><p>一般算法$O(n)$计算法</p><ol><li>用常数1取代运行时间中的所有加法常数</li><li>在修改后的运行次数函数中，只保留最高阶项</li><li>如果最高阶项系数存在且不是1，则去除与这个项相乘的常数</li></ol></li><li><p>分治算法的时间复杂度计算</p><ul><li>二分搜索算法的时间复杂度是$log_2N$</li><li>M分搜索算法的时间复杂度为$log_MN$</li></ul></li><li><p>递归算法</p><ul><li>时间复杂度：递归总次数 * 每次递归次数</li><li>递归算法空间复杂度算法：N * 每次递归空间大小</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考研数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo使用</title>
+      <link href="/2022/11/12/hexo%E4%BD%BF%E7%94%A8%E5%8F%8Anext%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+      <url>/2022/11/12/hexo%E4%BD%BF%E7%94%A8%E5%8F%8Anext%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h3 id="hexo-使用"><a href="#hexo-使用" class="headerlink" title="hexo 使用"></a>hexo 使用</h3><ul><li><p>发布文章</p><ul><li>创建新的文章：<code>hexo new &quot;title&quot;</code></li><li>发布新的文章：<code>hexo g</code>、<code>hexo d</code></li><li>在创建的<code>md</code>文档的上面，可配置文档的<code>tags</code>、<code>categories</code> 以及使用使用数学公式渲染<code>mathjax</code>，使用<code>top</code>可以使文章置顶，<code>top</code>的值表示优先级，值越大，优先级越高</li></ul></li><li><p>发布修改主题配置</p><p>修改玩主题配置之后，依次使用<code>hexo clean</code>、<code>hexo g</code>、<code>hexo d</code></p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/11/11/hello-world/"/>
+      <url>/2022/11/11/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
