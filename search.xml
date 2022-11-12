@@ -37,4 +37,25 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>hexo使用及next主题配置</title>
+    <url>/2022/11/12/hexo%E4%BD%BF%E7%94%A8%E5%8F%8Anext%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h3 id="hexo-使用"><a href="#hexo-使用" class="headerlink" title="hexo 使用"></a>hexo 使用</h3><ul>
+<li><p>发布文章</p>
+<ul>
+<li><p>创建新的文章：<code>hexo new &quot;title&quot;</code></p>
+</li>
+<li><p>发布新的文章：<code>hexo g</code>、<code>hexo d</code></p>
+</li>
+<li><p>在创建的<code>md</code>文档的上面，可配置文档的<code>tags</code>、<code>categories</code> 以及使用使用数学公式渲染<code>mathjax</code></p>
+</li>
+</ul>
+</li>
+<li><p>发布修改主题配置</p>
+<p>修改玩主题配置之后，依次使用<code>hexo clean</code>、<code>hexo g</code>、<code>hexo d</code></p>
+</li>
+</ul>
+<h3 id="next-主题修改"><a href="#next-主题修改" class="headerlink" title="next 主题修改"></a>next 主题修改</h3><p>我使用的是<code>next8</code>主题，  </p>
+]]></content>
+  </entry>
 </search>
