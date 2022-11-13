@@ -14,6 +14,16 @@
 <li><p>发布修改主题配置</p>
 <p>修改玩主题配置之后，依次使用<code>hexo clean</code>、<code>hexo g</code>、<code>hexo d</code></p>
 </li>
+<li><p>生成摘要</p>
+<ul>
+<li><p>在<code>md</code>文档中使用<code>&lt;!--more--&gt;</code>手动进行截断</p>
+</li>
+<li><p>在文章中的<code>front-matter</code>中添加<code>description</code>，并提供文章摘要</p>
+</li>
+<li><p>自动生成文章摘要，需在主题配置文件中添加以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">auto_excerpt:</span><br><span class="line">  enable: true</span><br><span class="line">  length: 150</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
 </ul>
 ]]></content>
   </entry>
@@ -31,9 +41,6 @@
 <p>一个数据元素可以由若干个数据项组成。数据项是数据不可分隔的最小单位</p>
 </li>
 </ul>
-<span id="more"></span>
-
-
 <h3 id="1-2-逻辑结构"><a href="#1-2-逻辑结构" class="headerlink" title="1.2 逻辑结构"></a>1.2 逻辑结构</h3><p>逻辑结构是指数据元素之间的逻辑关系，即从逻辑关系上描述数据。它与数据的存储无关，是独立于计算机的</p>
 <p><img src="https://typora-1303258815.cos.ap-chengdu.myqcloud.com/typora-imgs/image-20221023194514134.png" alt="image-20221023194514134">	</p>
 <ul>
