@@ -37,9 +37,6 @@
 <p>一个数据元素可以由若干个数据项组成。数据项是数据不可分隔的最小单位</p>
 </li>
 </ul>
-<span id="more"></span>
-
-
 <h3 id="1-2-逻辑结构"><a href="#1-2-逻辑结构" class="headerlink" title="1.2 逻辑结构"></a>1.2 逻辑结构</h3><p>逻辑结构是指数据元素之间的逻辑关系，即从逻辑关系上描述数据。它与数据的存储无关，是独立于计算机的</p>
 <p><img src="https://typora-1303258815.cos.ap-chengdu.myqcloud.com/typora-imgs/image-20221023194514134.png" alt="image-20221023194514134">	</p>
 <ul>
